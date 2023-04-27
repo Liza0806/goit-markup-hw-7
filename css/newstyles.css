@@ -1113,6 +1113,9 @@ display: none;
             /*----инпут и кнопка футера--*/
             .items-input-footer {
                 align-items: center;
+             margin-left: auto;
+             margin-right: auto;
+             display:block;
             }
         
             .items-input-footer input {
@@ -1516,6 +1519,7 @@ color: var(--blue);
                 (min-resolution: 2dppx) {
                   .hero {
                    background: var(--bg-gradient), url(../images/people-office@x2.jpg);
+                   background-size:cover;
                   }
                   }
     .hero-title {
@@ -1635,6 +1639,9 @@ padding-left: 108px;
     margin-left: 24px;
 
    }
+ .items-input-footer input {
+ margin-left:0;
+ }
 }
 @media screen and (min-width: 1440px) {
 .container {
