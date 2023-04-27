@@ -794,7 +794,7 @@ display: none;
                 (min-resolution: 2dppx) {
                   .hero {
                     background: var(--bg-gradient), url(../images/mobile-bg@x2.jpg);
-                  }
+                   background-size: cover;                  }
                 }
 
             .hero-title {
@@ -1164,7 +1164,9 @@ display: none;
                 padding-left: 16px;
                 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 margin-bottom: 16px;
-        
+          display:block;
+                        margin-left:auto;
+                        margin-right:auto;
             }
         
             .footer-form-mail:hover,
