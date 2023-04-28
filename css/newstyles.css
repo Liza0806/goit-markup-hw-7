@@ -106,7 +106,10 @@
                 color: var(--blue);
         
             }
-        
+                .studio a.studio,
+.portfolio a.portfolio {
+color: var(--blue);
+}
             .auth-nav {
         
                 display: flex;
