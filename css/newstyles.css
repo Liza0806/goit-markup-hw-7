@@ -888,6 +888,10 @@ display: none;
             /*----блок команда---*/
            .team-bg {
                 background-color: var(--soft-white);
+              display: block;
+             margin-left: auto;
+                margin-right: auto;
+                max-width: 428px;
             }
         
             .team .persons {
@@ -1590,6 +1594,10 @@ li.persons {
     margin-left: 0; 
  margin-right: 0; 
 }
+  .team-bg {
+                max-width: 768px;
+            }
+        
 
 
   /*------блок команда закончился----*/
@@ -1853,12 +1861,14 @@ section.advantages ul {
     flex-wrap:nowrap;
    }
    .team.section {
-    .section {
+  
     padding-left: 0;
     padding-right: 16px;
-    }
+    
    }
-   
+   .team-bg {
+                max-width: 100%;
+            }
    
    .team .persons {
        background-color: var(--pure-wite);
