@@ -883,7 +883,7 @@ display: none;
             }
         
             /*----блок команда---*/
-           .team{
+           .team-bg {
                 background-color: var(--soft-white);
             }
         
