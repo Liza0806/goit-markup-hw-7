@@ -1544,7 +1544,7 @@ color: var(--blue);
         width: 496px;
     }
     
-    /*------герой закончился----*/
+     /*------герой закончился----*/
     /*------блок достижения----*/
     .advantages-list {
       display: flex;  
@@ -1566,11 +1566,12 @@ color: var(--blue);
         .adv-li:not(:last-child) {
             margin-bottom: 0px;
         }
-     .advantages.section {
+    
+ .advantages.section {
         padding-left: 16px;
-        padding-right: 16px; 
+        padding-right: 16px;
+       
     }
-
 
     /*------блок достижения закончился----*/
   /*------блок команда----*/
